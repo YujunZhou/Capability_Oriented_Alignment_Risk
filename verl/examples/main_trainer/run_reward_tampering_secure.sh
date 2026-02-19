@@ -5,7 +5,6 @@ set -euo pipefail
 
 # Set random seed for reproducibility
 export PYTHONHASHSEED=42
-# export WANDB_API_KEY="09208978a1b95488af0ee5faf16fa729333b8718"
 
 # Change to repo root and set PYTHONPATH
 SCRIPT_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)

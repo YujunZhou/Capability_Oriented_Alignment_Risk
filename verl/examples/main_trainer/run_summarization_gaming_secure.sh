@@ -6,8 +6,6 @@ SCRIPT_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
 REPO_ROOT=$(cd "$SCRIPT_DIR/../.." && pwd)
 cd "$REPO_ROOT"
 
-# export WANDB_API_KEY="37c4e4c91d3767eede31e41d0f324eadbed0a89c"
-
 # Data paths
 DATA_DIR=./data/proxy_gaming
 TRAIN_PATH=${DATA_DIR}/train.parquet
